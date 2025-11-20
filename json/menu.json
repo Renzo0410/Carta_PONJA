@@ -1,0 +1,772 @@
+    [
+    {
+    "id": "ED001",
+    "category": "SAKIZUKE // APERITIVOS",
+    "name": "INOUE // EDAMAME PONJA",
+    "short": "Edamame y choclo salteado en batayaki de tomillo y togarashi.",
+    "description": "Edamame y maíz peruano en mantequilla de tomillo. Acompañar con recipiente vacío para tirar las vainas.",
+    "ingredients": "Edamame, choclo (maíz), mantequilla (batayaki) de tomillo, togarashi.",
+    "flavor": "Salado, ligeramente ahumado y ligeramente picante.",
+    "allergens": "Lácteo, soja, sésamo",
+    "setup": "Opcional colocar cuchara.",
+    "image": "img/foods/ED001.jpg",
+    "tags": ["veg-friendly", "aperitivo"]
+    },
+
+    {
+    "id": "OS001",
+    "category": "SAKIZUKE // APERITIVOS",
+    "name": "TANAKA // OSTRA CEBICHERA",
+    "short": "Ostra francesa con leche de tigre, dashi y aceite de cilantro.",
+    "description": "Ostra francesa con salsa cevichera. Recomendación: absorber la ostra directo de la coraza.",
+    "ingredients": "Ostra francesa, leche de tigre, dashi, aceite de cilantro.",
+    "flavor": "Cítrico.",
+    "allergens": "Apio, molusco",
+    "setup": "Con la mano.",
+    "image": "img/foods/OS001.jpg",
+    "tags": ["marisco", "crudo"]
+    },
+
+    {
+    "id": "OS002",
+    "category": "SAKIZUKE // APERITIVOS",
+    "name": "MORIKAWA // OSTRA PONZU",
+    "short": "Ostra francesa con salsa ponzu y perlage.",
+    "description": "Ostra francesa con salsa ponzu y perlage. Recomendación: absorber la ostra directo de la coraza.",
+    "ingredients": "Ostra, ponzu, perlage.",
+    "flavor": "Cítrico y ligeramente salado.",
+    "allergens": "Soja, sésamo, molusco, sulfitos",
+    "setup": "Con la mano.",
+    "image": "img/foods/OS002.jpg",
+    "tags": ["crudo"]
+    },
+
+    
+    {
+    "id": "SA001",
+    "category": "SASHIMI",
+    "name": "HAMACHI // PEZ LIMÓN",
+    "short": "Corte tradicional (3 unidades).",
+    "description": "Cortes de hamachi acompañado de gari y wasabi. Servir soja para el consumo.",
+    "ingredients": "Hamachi, gari, wasabi.",
+    "flavor": "Fresco, umami.",
+    "allergens": "Pescado",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/SA001.jpg",
+    "tags": ["pescado", "crudo"]
+    },
+
+    {
+    "id": "SA002",
+    "category": "SASHIMI",
+    "name": "SUZUKI // LUBINA SALVAJE",
+    "short": "Corte tradicional (3 unidades).",
+    "description": "Cortes de lubina acompañado de gari y wasabi. Recomendación: servir soja.",
+    "ingredients": "Lubina, gari, wasabi.",
+    "flavor": "Fresco.",
+    "allergens": "Pescado",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/SA002.jpg",
+    "tags": ["pescado"]
+    },
+
+    {
+    "id": "SA003",
+    "category": "SASHIMI",
+    "name": "SAKE // SALMÓN NORUEGO",
+    "short": "Corte tradicional (3 unidades).",
+    "description": "Cortes de salmón acompañado de gari y wasabi. Recomendación: servir soja.",
+    "ingredients": "Salmón, gari, wasabi.",
+    "flavor": "Fresco.",
+    "allergens": "Pescado",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/SA003.jpg",
+    "tags": ["pescado"]
+    },
+
+    {
+    "id": "SA004",
+    "category": "SASHIMI",
+    "name": "AKAMI // ATÚN",
+    "short": "Corte tradicional (3 unidades).",
+    "description": "Cortes de atún acompañado de gari y wasabi. Recomendación: servir soja.",
+    "ingredients": "Atún rojo, gari, wasabi.",
+    "flavor": "Fresco.",
+    "allergens": "Pescado",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/SA004.jpg",
+    "tags": ["pescado"]
+    },
+
+    {
+    "id": "SA005",
+    "category": "SASHIMI",
+    "name": "O'TORO // VENTRESCA DE ATÚN",
+    "short": "Corte tradicional (3 unidades).",
+    "description": "Cortes de ventresca de atún acompañado de gari y wasabi.",
+    "ingredients": "Ventresca de atún, gari, wasabi.",
+    "flavor": "Graso, umami.",
+    "allergens": "Pescado",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/SA005.jpg",
+    "tags": ["pescado"]
+    },
+
+    {
+    "id": "SA006",
+    "category": "SASHIMI",
+    "name": "TAKO // PULPO",
+    "short": "Corte tradicional (3 unidades).",
+    "description": "Cortes de pulpo acompañado de gari y wasabi. Recomendación: servir soja.",
+    "ingredients": "Pulpo, gari, wasabi.",
+    "flavor": "Firme, marino.",
+    "allergens": "Molusco",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/SA006.jpg",
+    "tags": ["molusco"]
+    },
+
+    {
+    "id": "SA007",
+    "category": "SASHIMI",
+    "name": "HOTATE // VIEIRAS",
+    "short": "Corte tradicional (3 unidades).",
+    "description": "Cortes de vieiras acompañado de gari y wasabi.",
+    "ingredients": "Vieiras, gari, wasabi.",
+    "flavor": "Dulce y marino.",
+    "allergens": "Molusco",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/SA007.jpg",
+    "tags": ["molusco"]
+    },
+
+    {
+    "id": "UM001",
+    "category": "UMISACHI // CEVICHES Y TIRADITOS",
+    "name": "MURAKAMI // CEBICHE CLÁSICO",
+    "short": "Dados de corvina con boniato crocante y leche de tigre.",
+    "description": "Corvina, leche de tigre, boniato crocante y maíces peruanos; se agrega aceite de togarashi y brotes de cilantro y ají limo.",
+    "ingredients": "Corvina, cebolla roja, boniato, maíces, leche de tigre, togarashi, cilantro, ají limo.",
+    "flavor": "Cítrico y ligeramente picante.",
+    "allergens": "Apio, pescado, sulfitos",
+    "setup": "Colocar cucharas.",
+    "image": "img/foods/UM001.jpg",
+    "tags": ["cítrico", "picante"]
+    },
+
+    {
+    "id": "UM002",
+    "category": "UMISACHI // CEVICHES Y TIRADITOS",
+    "name": "NAKAYAMA // CEBICHE PONJA",
+    "short": "Hamachi y vieiras con ikura en leche de tigre y dashi.",
+    "description": "Hamachi y vieiras con ikura en leche de tigre con dashi y aceite de cilantro; con algas y chalaquita.",
+    "ingredients": "Hamachi, vieiras, ikura, leche de tigre, dashi, aceite de cilantro, algas.",
+    "flavor": "Cítrico y ligeramente salado.",
+    "allergens": "Apio, pescado, sulfitos",
+    "setup": "Colocar cucharas.",
+    "image": "img/foods/UM002.jpg",
+    "tags": ["nikkei", "mar"]
+    },
+
+    {
+    "id": "UM003",
+    "category": "UMISACHI // CEVICHES Y TIRADITOS",
+    "name": "YOSHIYAMA // CEBICHE MAGURO",
+    "short": "Atún almadraba, cebolla, aguacate y algas crujientes.",
+    "description": "Dados de atún almadraba, cebolla roja, aguacate y algas crujientes con leche de tigre, ponzu y aceite de cilantro.",
+    "ingredients": "Atún, cebolla roja, aguacate, algas, ponzu, leche de tigre, sésamo.",
+    "flavor": "Cítrico y ligeramente salado.",
+    "allergens": "Gluten, apio, soja, sésamo, pescado, sulfitos",
+    "setup": "Colocar cuchara.",
+    "image": "img/foods/UM003.jpg",
+    "tags": ["ceviche"]
+    },
+
+    {
+    "id": "UM004",
+    "category": "UMISACHI // CEVICHES Y TIRADITOS",
+    "name": "KOBAYASHI // TIRADITO HAMACHI AL AJÍ AMARILLO",
+    "short": "Hamachi con mousse de aguacate y salsa de ají amarillo.",
+    "description": "Finos cortes de hamachi, mousse de aguacate, gel de ponzu, chalaquita y brotes de cilantro sobre salsa de ají amarillo con leche de tigre.",
+    "ingredients": "Hamachi, aguacate, ponzu, ají amarillo, leche de tigre, chalaquita.",
+    "flavor": "Cítrico y ligeramente picante.",
+    "allergens": "Apio, soja, pescado, sésamo, sulfitos",
+    "setup": "Colocar cucharas.",
+    "image": "img/foods/UM004.jpg",
+    "tags": ["tiradito", "picante"]
+    },
+
+    {
+    "id": "UM006",
+    "category": "UMISACHI // CEVICHES Y TIRADITOS",
+    "name": "TAKAHASHI // TIRADITO SUZUKI & HOTATE",
+    "short": "Lubina y vieiras sobre emulsión de rocoto con wasabi.",
+    "description": "Finos cortes de lubina y vieiras sobre emulsión de rocoto con wasabi, togarashi, chalaquita y aceite de cilantro.",
+    "ingredients": "Lubina, vieiras, rocoto, wasabi, togarashi, chalaquita, aceite de cilantro.",
+    "flavor": "Cítrico y ligeramente picante.",
+    "allergens": "Apio, pescado, sulfitos",
+    "setup": "Colocar cucharas.",
+    "image": "img/foods/UM006.jpg",
+    "tags": ["tiradito"]
+    },
+
+    {
+    "id": "UM007",
+    "category": "UMISACHI // CEVICHES Y TIRADITOS",
+    "name": "OSHIRO // TIRADITO DE O'TORO & TRUFA",
+    "short": "Ventresca de atún con panceta y ají amarillo trufado.",
+    "description": "Finos cortes de ventresca de atún, panceta ibérica y chalaquita con salsa de leche de tigre aji amarillo trufado.",
+    "ingredients": "Ventresca de atún, panceta ibérica, chalaquita, leche de tigre, ají amarillo trufado.",
+    "flavor": "Cítrico, ligeramente picante y trufado.",
+    "allergens": "Apio, pescado, setas",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/UM007.jpg",
+    "tags": ["trufa", "premium"]
+    },
+
+    {
+    "id": "UM009",
+    "category": "UMISACHI // CEVICHES Y TIRADITOS",
+    "name": "SATO // TARTAR DE O'TORO",
+    "short": "Tartar de ventresca de atún con mousse de aguacate y crocantes.",
+    "description": "Tartar de ventresca con mousse de aguacate, gel ponzu y crocantes de tapioca servido sobre salsa de ají amarillo con leche de tigre.",
+    "ingredients": "Ventresca de atún, aguacate, gel ponzu, crocantes de tapioca, ají amarillo, leche de tigre.",
+    "flavor": "Cítrico y ligeramente picante.",
+    "allergens": "Apio, huevo, soja, sésamo, molusco, pescado",
+    "setup": "Colocar cuchara.",
+    "image": "img/foods/UM009.jpg",
+    "tags": ["tartar"]
+    },
+
+    {
+    "id": "NI002",
+    "category": "NIGIRIS",
+    "name": "PEZ MANTEQUILLA PACHICAI",
+    "short": "Nigiri de pez mantequilla con salsa anticuchera y pachicai.",
+    "description": "Nigiri de pez mantequilla flameado con salsa anticuchos y pachicai.",
+    "ingredients": "Pez mantequilla, salsa anticuchera, pachicai.",
+    "flavor": "Ligeramente picante y ahumado.",
+    "allergens": "Soja, sésamo, pescado, sulfitos",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/NI002.jpg",
+    "tags": ["aburi"]
+    },
+
+    {
+    "id": "NI003",
+    "category": "NIGIRIS",
+    "name": "SALMÓN NORUEGO ABURI",
+    "short": "Salmón flambeado con mayo ponja y lima.",
+    "description": "Nigiri de salmón flambeado con mayo ponja (ponzu, mayonesa, chili garlic, dashi) y rodaja de lima.",
+    "ingredients": "Salmón, arroz, mayonesa, ponzu, chili garlic, dashi, lima.",
+    "flavor": "Ligeramente picante.",
+    "allergens": "Huevo, soja, sésamo, pescado, sulfitos",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/NI003.jpg",
+    "tags": ["aburi"]
+    },
+
+    {
+    "id": "NI004",
+    "category": "NIGIRIS",
+    "name": "SALMÓN TRUFADO",
+    "short": "Salmón flambeado con mantequilla de trufa y chimichurri de hongos.",
+    "description": "Nigiri de salmón trufado con mantequilla de trufa, chimichurri de hongos y perlage.",
+    "ingredients": "Salmón, mantequilla trufa, hongos, chimichurri.",
+    "flavor": "Ahumado y trufado.",
+    "allergens": "Apio, soja, sésamo, pescado, sulfitos, setas",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/NI004.jpg",
+    "tags": ["trufa"]
+    },
+
+    {
+    "id": "NI005",
+    "category": "NIGIRIS",
+    "name": "PERUCHO DE ATÚN",
+    "short": "Nigiri de atún con ají amarillo y chalaquita.",
+    "description": "Bocado de arroz con atún fresco y salsa de ají amarillo y chalaquita.",
+    "ingredients": "Atún, ají amarillo, chalaquita.",
+    "flavor": "Ligeramente picante.",
+    "allergens": "Huevo, soja, pescado, sulfitos",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/NI005.jpg",
+    "tags": ["picante"]
+    },
+
+    {
+    "id": "NI006",
+    "category": "NIGIRIS",
+    "name": "ATÚN Y FOIE GRASS",
+    "short": "Nigiri de atún coronado con foie grass cocido en salsa de anguila.",
+    "description": "Bocado enrollado por atún y coronado por foie grass cocido en salsa de anguila.",
+    "ingredients": "Atún, foie grass, salsa de anguila.",
+    "flavor": "Dulce y umami.",
+    "allergens": "Soja, sésamo, pescado, sulfitos",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/NI006.jpg",
+    "tags": ["foie"]
+    },
+
+    {
+    "id": "NI007",
+    "category": "NIGIRIS",
+    "name": "O'TORO HOTATE & UNAGI",
+    "short": "Nigiri de ventresca, vieiras y anguila con emulsión de sacha tomate.",
+    "description": "Nigiri con ventresca de atún, vieiras y anguila y emulsión de sacha tomate.",
+    "ingredients": "Ventresca, vieiras, unagi, emulsión de sacha tomate.",
+    "flavor": "Ligeramente dulce.",
+    "allergens": "Lácteo, apio, huevo, soja, sésamo, pescado, molusco, sulfitos",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/NI007.jpg",
+    "tags": ["premium"]
+    },
+
+    {
+    "id": "NI008",
+    "category": "NIGIRIS",
+    "name": "O'TORO, TRUFA & FOIE",
+    "short": "Nigiri de ventresca con salsa de ají amarillo trufado y foie.",
+    "description": "Nigiri de ventresca con salsa trufada, mantequilla de trufa y foie grass.",
+    "ingredients": "Ventresca, ají amarillo trufado, mantequilla de trufa, foie.",
+    "flavor": "Ligeramente salado y ahumado.",
+    "allergens": "Lácteo, huevo, sésamo, pescado, sulfitos, setas",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/NI008.jpg",
+    "tags": ["trufa", "foie"]
+    },
+
+    {
+    "id": "NI009",
+    "category": "NIGIRIS",
+    "name": "ANGUILA FOIE Y MANZANAS",
+    "short": "Nigiri de anguila con crema de foie y compota de manzana.",
+    "description": "Bocado de arroz cubierto de anguila, crema de foie grass y compota de manzana.",
+    "ingredients": "Anguila, foie grass, compota de manzana.",
+    "flavor": "Ligeramente dulce.",
+    "allergens": "Lácteo, gluten, soja, pescado, sulfitos",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/NI009.jpg",
+    "tags": ["dulce"]
+    },
+
+    {
+    "id": "NI011",
+    "category": "NIGIRIS",
+    "name": "HOTATE & CAVIAR",
+    "short": "Nigiri de vieira con emulsión de ponzu y caviar.",
+    "description": "Bocado de arroz con vieira flambeada, emulsión de ponzu y caviar.",
+    "ingredients": "Vieira, ponzu, caviar.",
+    "flavor": "Ligeramente salado.",
+    "allergens": "Soja, sésamo, pescado, molusco, sulfitos",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/NI011.jpg",
+    "tags": ["lujo"]
+    },
+
+    {
+    "id": "NI012",
+    "category": "NIGIRIS",
+    "name": "VIERA TRUFADA",
+    "short": "Nigiri de vieira flambeada con mantequilla de trufa.",
+    "description": "Vieira flambeada con mantequilla trufada, sal gruesa y zumo de lima.",
+    "ingredients": "Vieira, mantequilla de trufa, lima.",
+    "flavor": "Cítrico y trufado.",
+    "allergens": "Lácteo, molusco, sulfitos",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/NI012.jpg",
+    "tags": ["trufa"]
+    },
+
+    {
+    "id": "NI013",
+    "category": "NIGIRIS",
+    "name": "CARABINERO KANI",
+    "short": "Nigiri de carabinero y crema de cangrejo.",
+    "description": "Bocado de arroz cubierto de carabinero y crema de cangrejo (cangrejo, tare, mostaza Dijon, mayonesa y chalaquita).",
+    "ingredients": "Carabinero, pulpa de cangrejo, mayonesa, tare, mostaza.",
+    "flavor": "Marino y umami.",
+    "allergens": "Lácteo",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/NI013.jpg",
+    "tags": ["crustáceo"]
+    },
+
+    {
+    "id": "NI014",
+    "category": "NIGIRIS",
+    "name": "WAGYU A5 A LO POBRE",
+    "short": "Nigiri de wagyu A5 flameado con ponzu texturizado y huevo de codorniz.",
+    "description": "Lomo de wagyu A5 flameado con ponzu texturizado y huevo de codorniz.",
+    "ingredients": "Wagyu A5, ponzu, huevo de codorniz.",
+    "flavor": "Ligeramente salado, cítrico y ahumado.",
+    "allergens": "Huevo, soja, sésamo, sulfitos, setas",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/NI014.jpg",
+    "tags": ["premium", "carne"]
+    },
+
+    {
+    "id": "NI015",
+    "category": "NIGIRIS",
+    "name": "WAGYU A5 MISO YEMAS",
+    "short": "Nigiri de wagyu con salsa miso-yemas.",
+    "description": "Wagyu flambeado con salsa miso y yemas curadas en ponzu.",
+    "ingredients": "Wagyu A5, miso, yemas curadas, ponzu.",
+    "flavor": "Ligeramente salado y ahumado.",
+    "allergens": "Lácteo, huevo, soja, sésamo, sulfitos, setas",
+    "setup": "Palitos chinos (ohashis).",
+    "image": "img/foods/NI015.jpg",
+    "tags": ["premium"]
+    },
+
+    {
+    "id": "NI016",
+    "category": "NIGIRIS",
+    "name": "CRISPY RICE DE SALMÓN",
+    "short": "Arroz crocante con tartar de salmón y mayo ponja.",
+    "description": "Arroz crocante (crispy) con tartar de salmón en mayo ponja, gel de ponzu y mousse de aguacate.",
+    "ingredients": "Arroz, salmón, mayonesa, ponzu, aguacate.",
+    "flavor": "Ligeramente picante y cítrico.",
+    "allergens": "Soja, gluten, sésamo, pescado, sulfitos",
+    "setup": "Se puede tomar con la mano.",
+    "image": "img/foods/NI016.jpg",
+    "tags": ["crispy", "tartar"]
+    },
+
+    {
+    "id": "NI017",
+    "category": "NIGIRIS",
+    "name": "CRISPY RICE DE ATÚN",
+    "short": "Arroz crocante con tartar de atún y mousse de aguacate.",
+    "description": "Crispy rice con tartar de atún (aceite de sésamo, kimchi y cilantro), gel de ponzu y mousse de aguacate.",
+    "ingredients": "Arroz, atún, aceite de sésamo, kimchi, cilantro, ponzu, aguacate.",
+    "flavor": "Ligeramente picante y cítrico.",
+    "allergens": "Soja, gluten, sésamo, pescado, sulfitos",
+    "setup": "Se puede tomar con la mano.",
+    "image": "img/foods/NI017.jpg",
+    "tags": ["crispy"]
+    },
+
+    {
+    "id": "NI018",
+    "category": "NIGIRIS",
+    "name": "CRISPY RICE DE WAGYU A5",
+    "short": "Arroz crocante con tartar de wagyu y huevo de codorniz.",
+    "description": "Crispy rice con tartar de wagyu A5 y huevo de codorniz.",
+    "ingredients": "Arroz, wagyu, huevo de codorniz.",
+    "flavor": "Ahumado.",
+    "allergens": "Gluten, huevo, soja, sésamo, sulfitos, setas",
+    "setup": "Se puede tomar con la mano.",
+    "image": "img/foods/NI018.jpg",
+    "tags": ["crispy", "carne"]
+    },
+
+    {
+    "id": "GU001",
+    "category": "GUNKAN",
+    "name": "KAWAGUCHI // AKAMI",
+    "short": "Gunkan de atún con mousse de aguacate, gel de ponzu e ikura.",
+    "description": "Gunkan enrollado de alga coronado con tartar de atún, gel de ponzu e ikura.",
+    "ingredients": "Atún, aguacate, ponzu, ikura.",
+    "flavor": "Ligeramente picante y cítrico.",
+    "allergens": "Huevo, soja, pescado, sulfitos",
+    "setup": "Consumir en su propia salsa.",
+    "image": "img/foods/GU001.jpg",
+    "tags": ["gunkan"]
+    },
+
+    {
+    "id": "GU002",
+    "category": "GUNKAN",
+    "name": "OHARA // O'TORO & IKURA",
+    "short": "Gunkan de ventresca de atún y huevas de salmón.",
+    "description": "Gunkan de ventresca de atún coronado con ikura.",
+    "ingredients": "Ventresca, ikura.",
+    "flavor": "Salado.",
+    "allergens": "Huevo, soja, sésamo, pescado, sulfitos",
+    "setup": "Consumir en su propia salsa.",
+    "image": "img/foods/GU002.jpg",
+    "tags": ["lujo"]
+    },
+
+    {
+    "id": "GU003",
+    "category": "GUNKAN",
+    "name": "NAGATA // HOTATE",
+    "short": "Gunkan de vieiras en salsa tártara acevichada.",
+    "description": "Gunkan de vieiras acevichadas coronado con ikura.",
+    "ingredients": "Vieira, tártara acevichada, ikura.",
+    "flavor": "Ligeramente picante.",
+    "allergens": "Apio, huevo, soja, sulfitos",
+    "setup": "Consumir en su propia salsa.",
+    "image": "img/foods/GU003.jpg",
+    "tags": ["mar"]
+    },
+
+    {
+    "id": "MA001",
+    "category": "MAKIS",
+    "name": "HAMAMOTO // ANTICUCHERO",
+    "short": "Maki relleno de langostino empanizado y aguacate, cubierto de hamachi flameado.",
+    "description": "Rollos rellenos de langostino empanizado y aguacate cubiertos de hamachi flambeado y salsa anticuchera.",
+    "ingredients": "Langostino empanizado, aguacate, hamachi, salsa anticuchera.",
+    "flavor": "Ligeramente picante y ahumado.",
+    "allergens": "Gluten, huevo, soja, sésamo, pescado, crustáceo, sulfitos",
+    "setup": "Consumir en su propia salsa.",
+    "image": "img/foods/MA001.jpg",
+    "tags": ["maki"]
+    },
+
+    {
+    "id": "MA002",
+    "category": "MAKIS",
+    "name": "KINOSHITA // SALMON ACHORAO",
+    "short": "Maki relleno y cubierto con tartar de salmón flambeado.",
+    "description": "Rollos rellenos de pescado empanizado y aguacate, cubierto de tartar de salmón flambeado con mayo ponja y salsa de anguila.",
+    "ingredients": "Pescado empanizado, aguacate, salmón, mayonesa, salsa anguila.",
+    "flavor": "Ligeramente picante y dulce.",
+    "allergens": "Gluten, huevo, soja, sésamo, pescado, sulfitos",
+    "setup": "Consumir en su propia salsa.",
+    "image": "img/foods/MA002.jpg",
+    "tags": ["maki", "tempura"]
+    },
+
+    {
+    "id": "MA003",
+    "category": "MAKIS",
+    "name": "TANIGUCHI // PONJA",
+    "short": "Maki de atún y aguacate con mayo ponja.",
+    "description": "Rollos rellenos de atún fresco y aguacate, cubierto de atún fresco, mayo ponja y pachicai.",
+    "ingredients": "Atún, aguacate, mayonesa (ponja), pachicai.",
+    "flavor": "Ligeramente picante.",
+    "allergens": "Huevo, soja, sésamo, pescado, sulfitos",
+    "setup": "Consumir en su propia salsa.",
+    "image": "img/foods/MA003.jpg",
+    "tags": ["maki"]
+    },
+
+    {
+    "id": "MA004",
+    "category": "MAKIS",
+    "name": "SAKATA // TARTAR",
+    "short": "Maki tempurizado con tartar de atún encima.",
+    "description": "Rollos rellenos de langostino empanizado y aguacate, cubiertos por tartar de atún con mayo ponja y salsa de anguila.",
+    "ingredients": "Langostino empanizado, aguacate, tartar de atún, mayonesa, salsa anguila.",
+    "flavor": "Ligeramente picante y cítrico.",
+    "allergens": "Huevo, soja, pescado, sulfitos",
+    "setup": "Consumir en su propia salsa.",
+    "image": "img/foods/MA004.jpg",
+    "tags": ["tempura"]
+    },
+
+    {
+    "id": "MA005",
+    "category": "MAKIS",
+    "name": "IWASAKI // ACEBICHADO",
+    "short": "Maki relleno con langostino y cubierto de atún con salsa acevichada.",
+    "description": "Rollos rellenos de langostino empanizado y aguacate, cubierto de atún fresco y salsa acevichada con togarashi.",
+    "ingredients": "Langostino, aguacate, atún, togarashi, salsa acevichada.",
+    "flavor": "Ligeramente picante y cítrico.",
+    "allergens": "Gluten, apio, huevo, soja, sésamo, pescado, crustáceo, sulfitos",
+    "setup": "Consumir en su propia salsa.",
+    "image": "img/foods/MA005.jpg",
+    "tags": ["maki"]
+    },
+
+{
+    "id": "ZE001",
+    "category": "ZENSAI // ENTRADAS CALIENTES",
+    "name": "YOSHIKAWA // GYOZA DE CENTOLLO Y GAMBÓN",
+    "short": "Gyoza rellena de centollo, bisque y gambón.",
+    "description": "Gyoza rellena de centollo con aire de queso y gambón. Recomendación: utilizar cuchara para consumir con la salsa.",
+    "ingredients": "Centollo, gambón, queso (aire), bisque.",
+    "flavor": "Ligeramente picante y salado.",
+    "allergens": "Lácteo, gluten, apio, pescado, crustáceo",
+    "setup": "Colocar cucharas.",
+    "image": "img/foods/ZE001.jpg",
+    "tags": ["gyoza"]
+    },
+
+    {
+    "id": "ZE002",
+    "category": "ZENSAI // ENTRADAS CALIENTES",
+    "name": "HIROSE // GYOZA MAR Y TIERRA",
+    "short": "Gyoza de langostino y cerdo con setas.",
+    "description": "Gyoza rellena de langostino y cerdo con salsa ponzu y setas. Recomendación: utilizar cuchara.",
+    "ingredients": "Langostino, cerdo, setas, ponzu.",
+    "flavor": "Salado.",
+    "allergens": "Gluten, soja, sésamo, crustáceo, sulfitos",
+    "setup": "Colocar cucharas.",
+    "image": "img/foods/ZE002.jpg",
+    "tags": ["gyoza"]
+    },
+
+    {
+    "id": "ZE003",
+    "category": "ZENSAI // ENTRADAS CALIENTES",
+    "name": "TANIMOTO // SOFT SHELL CRAB BAO",
+    "short": "Bao de cangrejo furai con tártara de rocoto.",
+    "description": "Bao relleno de cangrejo furai, salsa criolla con wakame y tártara de rocoto. Recomendación: tomar con la mano.",
+    "ingredients": "Cangrejo, wakame, tártara de rocoto.",
+    "flavor": "Salado y ligeramente picante.",
+    "allergens": "Lácteo, gluten, huevo, soja, sésamo, crustáceo, sulfitos",
+    "setup": "Opcional tenedor y cuchillo.",
+    "image": "img/foods/ZE003.jpg",
+    "tags": ["bao"]
+    },
+
+    {
+    "id": "ZE004",
+    "category": "ZENSAI // ENTRADAS CALIENTES",
+    "name": "TAKAYAMA // BAO DE CHICHARRON",
+    "short": "Bao de panceta ibérica con boniato crocante.",
+    "description": "Bao de panceta ibérica glaseada al josper, boniato crocante, pepino, col morada, nabo encurtido y crema de ají.",
+    "ingredients": "Panceta, boniato, pepino, col morada, crema de ají.",
+    "flavor": "Salado.",
+    "allergens": "Lácteo, gluten, huevo, soja, sésamo, molusco, sulfitos",
+    "setup": "Opcional tenedor y cuchillo.",
+    "image": "img/foods/ZE004.jpg",
+    "tags": ["bao", "panceta"]
+    },
+
+    {
+    "id": "ZE005",
+    "category": "ZENSAI // ENTRADAS CALIENTES",
+    "name": "OKUMURA // ANTICUCHO DE PEZ MANTEQUILLA",
+    "short": "Pez mantequilla a la brasa con majado de papa y chimichurri.",
+    "description": "Pez mantequilla a la brasa, salsa anticuchera, majado de papa, salsa blanca de maíz (choclo), chimichurri nikkei y aceite de cilantro.",
+    "ingredients": "Pez mantequilla, papa, choclo, chimichurri.",
+    "flavor": "Salado y ligeramente picante.",
+    "allergens": "Lácteo, soja, pescado, sulfitos",
+    "setup": "Colocar tenedor y cuchillo.",
+    "image": "img/foods/ZE005.jpg",
+    "tags": ["brasa"]
+    },
+
+    {
+    "id": "ZE006",
+    "category": "ZENSAI // ENTRADAS CALIENTES",
+    "name": "MIZUSHIMA // PULPO AL JOSPER",
+    "short": "Pulpo al josper con milhojas de patata y katsuobushi.",
+    "description": "Pulpo al josper, milhojas de patata, tártara, espuma de patata y katsuobushi.",
+    "ingredients": "Pulpo, patata, katsuobushi.",
+    "flavor": "Salado y ligeramente picante.",
+    "allergens": "Lácteo, huevo, soja, crustáceo, sulfitos",
+    "setup": "Colocar cubiertos.",
+    "image": "img/foods/ZE006.jpg",
+    "tags": ["josper"]
+    },
+
+    {
+    "id": "ZE007",
+    "category": "ZENSAI // ENTRADAS CALIENTES",
+    "name": "YOSHIDA // KATSU SANDO DE CERDO IBÉRICO",
+    "short": "Katsu sando de presa ibérica con coleslaw.",
+    "description": "Presa ibérica, brioche, coleslaw y salsa tonkatsu. Recomendación: puede tomarse con la mano.",
+    "ingredients": "Presa ibérica, brioche, coleslaw, tonkatsu.",
+    "flavor": "Salado.",
+    "allergens": "Lácteo, gluten, huevo, soja, sésamo, sulfitos",
+    "setup": "Opcional tenedor y cuchillo.",
+    "image": "img/foods/ZE007.jpg",
+    "tags": ["sando"]
+    },
+
+    {
+    "id": "ZE008",
+    "category": "ZENSAI // ENTRADAS CALIENTES",
+    "name": "MURAYAMA // GYU KATSU PONJA",
+    "short": "Wagyu A5 apanado con curry ramen y huevo onsen.",
+    "description": "Wagyu A5 apanado, salsa curry ramen, huevo onsen y kizami wasabi. Recomendación: acompañar con salsas en cucharas pequeñas.",
+    "ingredients": "Wagyu A5, curry ramen, huevo onsen, wasabi.",
+    "flavor": "Umami y salado.",
+    "allergens": "Lácteo, gluten, huevo, soja, sésamo, sulfitos",
+    "setup": "Tenedor y cuchillo.",
+    "image": "img/foods/ZE008.jpg",
+    "tags": ["katsu"]
+    },
+
+    {
+    "id": "PR001",
+    "category": "SAIGO // PRINCIPALES",
+    "name": "HAYASHI // SHIROMI A LA BRASA",
+    "short": "Lubina salvaje con puré de alcachofa y batayaki de miso y yuzu.",
+    "description": "Lubina salvaje, puré de alcachofa, alcachofa tempurizada, bimi a la brasa, batayaki de miso y yuzu.",
+    "ingredients": "Lubina, alcachofa, bimi, miso, yuzu.",
+    "flavor": "Cítrico y umami.",
+    "allergens": "Lácteo, gluten, soja, pescado, sulfitos",
+    "setup": "Colocar tenedor y cuchillo.",
+    "image": "img/foods/PR001.jpg",
+    "tags": ["pescado", "brasa"]
+    },
+
+    {
+    "id": "PR003",
+    "category": "SAIGO // PRINCIPALES",
+    "name": "OGATA // ARROZ CONCOLON DE CIGALA",
+    "short": "Arroz con salsa de crustáceos, cigala y gambas con alioli.",
+    "description": "Arroz cocido en salsa de crustáceos con cigala, gambas y salsa alioli. Recomendación: tener cuidado con la olla caliente.",
+    "ingredients": "Cigala, gambas, alioli, arroz, salsa de crustáceos.",
+    "flavor": "Marino y potente.",
+    "allergens": "Lácteo, gluten, huevo, soja, crustáceo",
+    "setup": "Colocar tenedor y cuchillo.",
+    "image": "img/foods/PR003.jpg",
+    "tags": ["arroz"]
+    },
+
+    {
+    "id": "PR004",
+    "category": "SAIGO // PRINCIPALES",
+    "name": "SHIMIZU // UDON DE LANGOSTA",
+    "short": "Udon en salsa de crustáceos con langosta salteada en mantequilla.",
+    "description": "Udon en salsa de crustáceos con langosta salteada en mantequilla.",
+    "ingredients": "Udon, salsa crustáceos, langosta, mantequilla.",
+    "flavor": "Umami y marisco.",
+    "allergens": "Lácteo, gluten, soja, sésamo, crustáceo, sulfitos",
+    "setup": "Colocar tenedor y cuchara.",
+    "image": "img/foods/PR004.jpg",
+    "tags": ["mar"]
+    },
+
+    {
+    "id": "PR005",
+    "category": "SAIGO // PRINCIPALES",
+    "name": "MAEDA // YAKIMESHI PONJA",
+    "short": "Arroz al wok con costillas y nabo encurtido.",
+    "description": "Arroz al wok con costillas a la barbacoa y nabo encurtido.",
+    "ingredients": "Arroz, costillas, nabo encurtido.",
+    "flavor": "Umami y barbacoa.",
+    "allergens": "Lácteo, gluten, soja, sésamo, crustáceo, sulfitos",
+    "setup": "Colocar tenedor y cuchillo.",
+    "image": "img/foods/PR005.jpg",
+    "tags": ["wok"]
+    },
+
+    {
+    "id": "PR006",
+    "category": "SAIGO // PRINCIPALES",
+    "name": "OTSUKA // WAGYU A5 AL JOSPER",
+    "short": "Lomo alto de wagyu A5 con rocoto y patata trufada.",
+    "description": "Lomo alto de wagyu A5, rocoto parrillero y textura de patata trufada. Recomendación: acompañar con salsas y cucharas pequeñas.",
+    "ingredients": "Wagyu A5, rocoto, patata trufada.",
+    "flavor": "Umami y trufado.",
+    "allergens": "Lácteo, setas",
+    "setup": "Colocar tenedor y cuchillo.",
+    "image": "img/foods/PR006.jpg",
+    "tags": ["carne", "premium"]
+    },
+
+    {
+    "id": "PR007",
+    "category": "SAIGO // PRINCIPALES",
+    "name": "ISHIDA // LOMO SALTADO",
+    "short": "Solomillo al wok con yucas fritas y arroz blanco.",
+    "description": "Solomillo al wok, cebolla roja, tomate, setas, salsa de ostras y soja, acompañado de yucas fritas y arroz blanco.",
+    "ingredients": "Solomillo, cebolla roja, tomate, setas, salsa ostras, yuca, arroz.",
+    "flavor": "Umami y salado.",
+    "allergens": "Lácteo, soja, sésamo, molusco, sulfitos, setas",
+    "setup": "Colocar tenedor y cuchillo.",
+    "image": "img/foods/PR007.jpg",
+    "tags": ["wok", "principales"]
+    }
+]

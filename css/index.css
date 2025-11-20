@@ -1,0 +1,56 @@
+body {
+    background: #fafafa;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+
+.card-menu {
+    cursor: pointer;
+    transition: transform .12s ease, box-shadow .12s ease;
+}
+
+.card-menu:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, .08);
+}
+
+.cat-badge {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+}
+
+.placeholder-img {
+    object-fit: cover;
+    width: 100%;
+    height: 220px;
+    background: linear-gradient(90deg, #f0f0f0, #f7f7f7);
+    display: block;
+}
+
+.badge-tag {
+    margin-right: .35rem;
+    margin-bottom: .25rem;
+}
+
+.no-results {
+    padding: 2rem;
+    text-align: center;
+    color: #777;
+}
+
+@media (max-width: 575px) {
+    .placeholder-img {
+        height: 160px;
+    }
+}
+
+.allergen-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    padding: 2px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    background: white;
+}

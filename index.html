@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PONJA NIKKEI | CARTA</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Estilos propios -->
+    <link rel="stylesheet" href="./css/index.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">PONJA NIKKEI</a>
+
+            <div class="d-flex align-items-center">
+                <button id="printBtn" class="btn btn-outline-secondary btn-sm me-2">Imprimir</button>
+                <!-- Ruta local al PDF subido. Si lo subes al repo, la ruta será "PONJA_NIKKEI.pdf" -->
+                <a class="btn btn-outline-primary btn-sm" href="/mnt/data/PONJA_NIKKEI.pdf" target="_blank"
+                    rel="noopener">Ver PDF original</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-4">
+
+        <div class="card mb-4">
+            <div class="card-body">
+                <div class="row gx-2 gy-2 align-items-center">
+                    <div class="col-md-6 col-12">
+                        <input id="searchInput" class="form-control"
+                            placeholder="Buscar plato, ingrediente, sabor o alérgeno (ej. 'hamachi', 'ají', 'soja')" />
+                    </div>
+
+                    <div class="col-md-4 col-8">
+                        <select id="categoryFilter" class="form-select">
+                            <option value="all">Todas las categorías</option>
+                            <option value="SAKIZUKE // APERITIVOS">Aperitivos</option>
+                            <option value="SASHIMI">Sashimi</option>
+                            <option value="UMISACHI // CEVICHES Y TIRADITOS">Ceviches y Tiraditos</option>
+                            <option value="NIGIRIS">Nigiris</option>
+                            <option value="GUNKAN">Gunkan</option>
+                            <option value="MAKIS">Makis</option>
+                            <option value="ZENSAI // ENTRADAS CALIENTES">Entradas calientes</option>
+                            <option value="SAIGO // PRINCIPALES">Principales</option>
+                        </select>
+                    </div>
+
+                    <div class="col-md-2 col-4 text-end">
+                        <button id="clearBtn" class="btn btn-outline-danger btn-sm">Limpiar</button>
+                    </div>
+                </div>
+
+                <!-- <div class="mt-2 text-muted small">
+                    Nota: la carta se importó del texto que pegaste. Añade imágenes en la carpeta <code>img/</code> con
+                    el nombre del ID (ej. <code>IN001.jpg</code>).
+                </div> -->
+            </div>
+        </div>
+
+        <div id="menuContainer" class="row g-3"></div>
+
+        <div id="noResults" class="no-results d-none">
+            <h5>No se encontraron platos</h5>
+            <p>Prueba a limpiar los filtros o buscar otra palabra.</p>
+        </div>
+
+    </main>
+
+    <!-- Modal detalle plato -->
+    <div class="modal fade" id="dishModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 id="dishModalTitle" class="modal-title"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img id="dishModalImage" src="" alt="" class="img-fluid rounded mb-3 placeholder-img">
+                        </div>
+                        <div class="col-md-7">
+                            <p id="dishModalDescription"></p>
+
+                            <dl class="row">
+                                <dt class="col-sm-4">Ingredientes</dt>
+                                <dd id="dishModalIngredients" class="col-sm-8"></dd>
+
+                                <dt class="col-sm-4">Sabor</dt>
+                                <dd id="dishModalFlavor" class="col-sm-8"></dd>
+
+                                <dt class="col-sm-4">Alérgenos</dt>
+                                <dd id="dishModalAllergens" class="col-sm-8"></dd>
+
+                                <dt class="col-sm-4"> Recomendación</dt>
+                                <dd id="dishModalSetup" class="col-sm-8"></dd>
+                            </dl>
+
+                            <div id="dishModalTags" class="mt-2"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button id="favModalBtn" class="btn btn-outline-danger me-auto"><span id="favModalIcon">♡</span>
+                        Favorito</button>
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
