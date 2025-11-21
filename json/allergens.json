@@ -2,95 +2,95 @@
     { 
     "name": "Lácteo", 
     "slug": "lacteo", 
-    "icon": "img/allengers/1-lacteo.png" 
+    "icon": "img/allergens/1-lacteo.png" 
     },
 
     { 
     "name": "Gluten", 
     "slug": "gluten", 
-    "icon": "img/allengers/2-gluten.png" 
+    "icon": "img/allergens/2-gluten.png" 
     },
 
     { 
     "name": "Frutos Secos", 
     "slug": "frutos-secos", 
-    "icon": "img/allengers/3-frutos-secos.png" 
+    "icon": "img/allergens/3-frutos-secos.png" 
     },
 
     {   
     "name": "Cacahuete", 
     "slug": "cacahuete", 
-    "icon": "img/allengers/4-cacahuete.png" 
+    "icon": "img/allergens/4-cacahuete.png" 
     },
 
     { 
     "name": "Apio", 
     "slug": "apio", 
-    "icon": "img/allengers/5-apio.png" 
+    "icon": "img/allergens/5-apio.png" 
     },
 
     { 
     "name": "Huevo", 
     "slug": "huevo", 
-    "icon": "img/allengers/6-huevo.png" 
+    "icon": "img/allergens/6-huevo.png" 
     },
 
     { 
     "name": "Soja", 
     "slug": "soja", 
-    "icon": "img/allengers/7-soja.png" 
+    "icon": "img/allergens/7-soja.png" 
     },
 
     { 
     "name": "Mostaza", 
     "slug": "mostaza", 
-    "icon": "img/allengers/8-mostaza.png" 
+    "icon": "img/allergens/8-mostaza.png" 
     },
 
     { 
     "name": "Sésamo", 
     "slug": "sesamo", 
-    "icon": "img/allengers/9-sesamo.png" 
+    "icon": "img/allergens/9-sesamo.png" 
     },
 
     { 
     "name": "Pescado", 
     "slug": "pescado", 
-    "icon": "img/allengers/10-pescado.png" 
+    "icon": "img/allergens/10-pescado.png" 
     },
 
     { 
     "name": "Crustáceo", 
     "slug": "crustaceo", 
-    "icon": "img/allengers/11-crustaceo.png" 
+    "icon": "img/allergens/11-crustaceo.png" 
     },
 
     { 
     "name": "Molusco", 
     "slug": "molusco", 
-    "icon": "img/allengers/12-molusco.png" 
+    "icon": "img/allergens/12-molusco.png" 
     },
 
     { 
     "name": "Altramuces", 
     "slug": "altramuces", 
-    "icon": "img/allengers/13-altramuces.png" 
+    "icon": "img/allergens/13-altramuces.png" 
     },
 
     { 
     "name": "Sulfitos", 
     "slug": "sulfitos", 
-    "icon": "img/allengers/14-sulfitos.png" 
+    "icon": "img/allergens/14-sulfitos.png" 
     },
 
     { 
     "name": "Setas", 
     "slug": "setas", 
-    "icon": "img/allengers/15-setas.png" 
+    "icon": "img/allergens/15-setas.png" 
     },
 
     { 
     "name": "Frutos Rojos", 
     "slug": "frutos-rojos", 
-    "icon": "img/allengers/16-frutos-rojos.png" }
+    "icon": "img/allergens/16-frutos-rojos.png" }
 ]
