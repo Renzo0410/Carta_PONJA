@@ -1,8 +1,8 @@
     [
     {
     "id": "ED001",
-    "category": "SAKIZUKE // APERITIVOS",
-    "name": "INOUE // EDAMAME PONJA",
+    "category": "SAKIZUKE || APERITIVOS",
+    "name": "INOUE || EDAMAME PONJA",
     "short": "Edamame y choclo salteado en batayaki de tomillo y togarashi.",
     "description": "Edamame y maíz peruano en mantequilla de tomillo. Acompañar con recipiente vacío para tirar las vainas.",
     "ingredients": "Edamame, choclo (maíz), mantequilla (batayaki) de tomillo, togarashi.",
@@ -15,8 +15,8 @@
 
     {
     "id": "OS001",
-    "category": "SAKIZUKE // APERITIVOS",
-    "name": "TANAKA // OSTRA CEBICHERA",
+    "category": "SAKIZUKE || APERITIVOS",
+    "name": "TANAKA || OSTRA CEBICHERA",
     "short": "Ostra francesa con leche de tigre, dashi y aceite de cilantro.",
     "description": "Ostra francesa con salsa cevichera. Recomendación: absorber la ostra directo de la coraza.",
     "ingredients": "Ostra francesa, leche de tigre, dashi, aceite de cilantro.",
@@ -29,8 +29,8 @@
 
     {
     "id": "OS002",
-    "category": "SAKIZUKE // APERITIVOS",
-    "name": "MORIKAWA // OSTRA PONZU",
+    "category": "SAKIZUKE || APERITIVOS",
+    "name": "MORIKAWA || OSTRA PONZU",
     "short": "Ostra francesa con salsa ponzu y perlage.",
     "description": "Ostra francesa con salsa ponzu y perlage. Recomendación: absorber la ostra directo de la coraza.",
     "ingredients": "Ostra, ponzu, perlage.",
@@ -45,7 +45,7 @@
     {
     "id": "SA001",
     "category": "SASHIMI",
-    "name": "HAMACHI // PEZ LIMÓN",
+    "name": "HAMACHI || PEZ LIMÓN",
     "short": "Corte tradicional (3 unidades).",
     "description": "Cortes de hamachi acompañado de gari y wasabi. Servir soja para el consumo.",
     "ingredients": "Hamachi, gari, wasabi.",
@@ -59,7 +59,7 @@
     {
     "id": "SA002",
     "category": "SASHIMI",
-    "name": "SUZUKI // LUBINA SALVAJE",
+    "name": "SUZUKI || LUBINA SALVAJE",
     "short": "Corte tradicional (3 unidades).",
     "description": "Cortes de lubina acompañado de gari y wasabi. Recomendación: servir soja.",
     "ingredients": "Lubina, gari, wasabi.",
@@ -73,7 +73,7 @@
     {
     "id": "SA003",
     "category": "SASHIMI",
-    "name": "SAKE // SALMÓN NORUEGO",
+    "name": "SAKE || SALMÓN NORUEGO",
     "short": "Corte tradicional (3 unidades).",
     "description": "Cortes de salmón acompañado de gari y wasabi. Recomendación: servir soja.",
     "ingredients": "Salmón, gari, wasabi.",
@@ -87,7 +87,7 @@
     {
     "id": "SA004",
     "category": "SASHIMI",
-    "name": "AKAMI // ATÚN",
+    "name": "AKAMI || ATÚN",
     "short": "Corte tradicional (3 unidades).",
     "description": "Cortes de atún acompañado de gari y wasabi. Recomendación: servir soja.",
     "ingredients": "Atún rojo, gari, wasabi.",
@@ -101,7 +101,7 @@
     {
     "id": "SA005",
     "category": "SASHIMI",
-    "name": "O'TORO // VENTRESCA DE ATÚN",
+    "name": "O'TORO || VENTRESCA DE ATÚN",
     "short": "Corte tradicional (3 unidades).",
     "description": "Cortes de ventresca de atún acompañado de gari y wasabi.",
     "ingredients": "Ventresca de atún, gari, wasabi.",
@@ -115,7 +115,7 @@
     {
     "id": "SA006",
     "category": "SASHIMI",
-    "name": "TAKO // PULPO",
+    "name": "TAKO || PULPO",
     "short": "Corte tradicional (3 unidades).",
     "description": "Cortes de pulpo acompañado de gari y wasabi. Recomendación: servir soja.",
     "ingredients": "Pulpo, gari, wasabi.",
@@ -129,7 +129,7 @@
     {
     "id": "SA007",
     "category": "SASHIMI",
-    "name": "HOTATE // VIEIRAS",
+    "name": "HOTATE || VIEIRAS",
     "short": "Corte tradicional (3 unidades).",
     "description": "Cortes de vieiras acompañado de gari y wasabi.",
     "ingredients": "Vieiras, gari, wasabi.",
@@ -142,8 +142,8 @@
 
     {
     "id": "UM001",
-    "category": "UMISACHI // CEVICHES Y TIRADITOS",
-    "name": "MURAKAMI // CEBICHE CLÁSICO",
+    "category": "UMISACHI || CEVICHES Y TIRADITOS",
+    "name": "MURAKAMI || CEBICHE CLÁSICO",
     "short": "Dados de corvina con boniato crocante y leche de tigre.",
     "description": "Corvina, leche de tigre, boniato crocante y maíces peruanos; se agrega aceite de togarashi y brotes de cilantro y ají limo.",
     "ingredients": "Corvina, cebolla roja, boniato, maíces, leche de tigre, togarashi, cilantro, ají limo.",
@@ -156,8 +156,8 @@
 
     {
     "id": "UM002",
-    "category": "UMISACHI // CEVICHES Y TIRADITOS",
-    "name": "NAKAYAMA // CEBICHE PONJA",
+    "category": "UMISACHI || CEVICHES Y TIRADITOS",
+    "name": "NAKAYAMA || CEBICHE PONJA",
     "short": "Hamachi y vieiras con ikura en leche de tigre y dashi.",
     "description": "Hamachi y vieiras con ikura en leche de tigre con dashi y aceite de cilantro; con algas y chalaquita.",
     "ingredients": "Hamachi, vieiras, ikura, leche de tigre, dashi, aceite de cilantro, algas.",
@@ -170,8 +170,8 @@
 
     {
     "id": "UM003",
-    "category": "UMISACHI // CEVICHES Y TIRADITOS",
-    "name": "YOSHIYAMA // CEBICHE MAGURO",
+    "category": "UMISACHI || CEVICHES Y TIRADITOS",
+    "name": "YOSHIYAMA || CEBICHE MAGURO",
     "short": "Atún almadraba, cebolla, aguacate y algas crujientes.",
     "description": "Dados de atún almadraba, cebolla roja, aguacate y algas crujientes con leche de tigre, ponzu y aceite de cilantro.",
     "ingredients": "Atún, cebolla roja, aguacate, algas, ponzu, leche de tigre, sésamo.",
@@ -184,8 +184,8 @@
 
     {
     "id": "UM004",
-    "category": "UMISACHI // CEVICHES Y TIRADITOS",
-    "name": "KOBAYASHI // TIRADITO HAMACHI AL AJÍ AMARILLO",
+    "category": "UMISACHI || CEVICHES Y TIRADITOS",
+    "name": "KOBAYASHI || TIRADITO HAMACHI AL AJÍ AMARILLO",
     "short": "Hamachi con mousse de aguacate y salsa de ají amarillo.",
     "description": "Finos cortes de hamachi, mousse de aguacate, gel de ponzu, chalaquita y brotes de cilantro sobre salsa de ají amarillo con leche de tigre.",
     "ingredients": "Hamachi, aguacate, ponzu, ají amarillo, leche de tigre, chalaquita.",
@@ -198,8 +198,8 @@
 
     {
     "id": "UM006",
-    "category": "UMISACHI // CEVICHES Y TIRADITOS",
-    "name": "TAKAHASHI // TIRADITO SUZUKI & HOTATE",
+    "category": "UMISACHI || CEVICHES Y TIRADITOS",
+    "name": "TAKAHASHI || TIRADITO SUZUKI & HOTATE",
     "short": "Lubina y vieiras sobre emulsión de rocoto con wasabi.",
     "description": "Finos cortes de lubina y vieiras sobre emulsión de rocoto con wasabi, togarashi, chalaquita y aceite de cilantro.",
     "ingredients": "Lubina, vieiras, rocoto, wasabi, togarashi, chalaquita, aceite de cilantro.",
@@ -212,8 +212,8 @@
 
     {
     "id": "UM007",
-    "category": "UMISACHI // CEVICHES Y TIRADITOS",
-    "name": "OSHIRO // TIRADITO DE O'TORO & TRUFA",
+    "category": "UMISACHI || CEVICHES Y TIRADITOS",
+    "name": "OSHIRO || TIRADITO DE O'TORO & TRUFA",
     "short": "Ventresca de atún con panceta y ají amarillo trufado.",
     "description": "Finos cortes de ventresca de atún, panceta ibérica y chalaquita con salsa de leche de tigre aji amarillo trufado.",
     "ingredients": "Ventresca de atún, panceta ibérica, chalaquita, leche de tigre, ají amarillo trufado.",
@@ -226,8 +226,8 @@
 
     {
     "id": "UM009",
-    "category": "UMISACHI // CEVICHES Y TIRADITOS",
-    "name": "SATO // TARTAR DE O'TORO",
+    "category": "UMISACHI || CEVICHES Y TIRADITOS",
+    "name": "SATO || TARTAR DE O'TORO",
     "short": "Tartar de ventresca de atún con mousse de aguacate y crocantes.",
     "description": "Tartar de ventresca con mousse de aguacate, gel ponzu y crocantes de tapioca servido sobre salsa de ají amarillo con leche de tigre.",
     "ingredients": "Ventresca de atún, aguacate, gel ponzu, crocantes de tapioca, ají amarillo, leche de tigre.",
@@ -465,7 +465,7 @@
     {
     "id": "GU001",
     "category": "GUNKAN",
-    "name": "KAWAGUCHI // AKAMI",
+    "name": "KAWAGUCHI || AKAMI",
     "short": "Gunkan de atún con mousse de aguacate, gel de ponzu e ikura.",
     "description": "Gunkan enrollado de alga coronado con tartar de atún, gel de ponzu e ikura.",
     "ingredients": "Atún, aguacate, ponzu, ikura.",
@@ -479,7 +479,7 @@
     {
     "id": "GU002",
     "category": "GUNKAN",
-    "name": "OHARA // O'TORO & IKURA",
+    "name": "OHARA || O'TORO & IKURA",
     "short": "Gunkan de ventresca de atún y huevas de salmón.",
     "description": "Gunkan de ventresca de atún coronado con ikura.",
     "ingredients": "Ventresca, ikura.",
@@ -493,7 +493,7 @@
     {
     "id": "GU003",
     "category": "GUNKAN",
-    "name": "NAGATA // HOTATE",
+    "name": "NAGATA || HOTATE",
     "short": "Gunkan de vieiras en salsa tártara acevichada.",
     "description": "Gunkan de vieiras acevichadas coronado con ikura.",
     "ingredients": "Vieira, tártara acevichada, ikura.",
@@ -507,7 +507,7 @@
     {
     "id": "MA001",
     "category": "MAKIS",
-    "name": "HAMAMOTO // ANTICUCHERO",
+    "name": "HAMAMOTO || ANTICUCHERO",
     "short": "Maki relleno de langostino empanizado y aguacate, cubierto de hamachi flameado.",
     "description": "Rollos rellenos de langostino empanizado y aguacate cubiertos de hamachi flambeado y salsa anticuchera.",
     "ingredients": "Langostino empanizado, aguacate, hamachi, salsa anticuchera.",
@@ -521,7 +521,7 @@
     {
     "id": "MA002",
     "category": "MAKIS",
-    "name": "KINOSHITA // SALMON ACHORAO",
+    "name": "KINOSHITA || SALMON ACHORAO",
     "short": "Maki relleno y cubierto con tartar de salmón flambeado.",
     "description": "Rollos rellenos de pescado empanizado y aguacate, cubierto de tartar de salmón flambeado con mayo ponja y salsa de anguila.",
     "ingredients": "Pescado empanizado, aguacate, salmón, mayonesa, salsa anguila.",
@@ -535,7 +535,7 @@
     {
     "id": "MA003",
     "category": "MAKIS",
-    "name": "TANIGUCHI // PONJA",
+    "name": "TANIGUCHI || PONJA",
     "short": "Maki de atún y aguacate con mayo ponja.",
     "description": "Rollos rellenos de atún fresco y aguacate, cubierto de atún fresco, mayo ponja y pachicai.",
     "ingredients": "Atún, aguacate, mayonesa (ponja), pachicai.",
@@ -549,7 +549,7 @@
     {
     "id": "MA004",
     "category": "MAKIS",
-    "name": "SAKATA // TARTAR",
+    "name": "SAKATA || TARTAR",
     "short": "Maki tempurizado con tartar de atún encima.",
     "description": "Rollos rellenos de langostino empanizado y aguacate, cubiertos por tartar de atún con mayo ponja y salsa de anguila.",
     "ingredients": "Langostino empanizado, aguacate, tartar de atún, mayonesa, salsa anguila.",
@@ -563,7 +563,7 @@
     {
     "id": "MA005",
     "category": "MAKIS",
-    "name": "IWASAKI // ACEBICHADO",
+    "name": "IWASAKI || ACEBICHADO",
     "short": "Maki relleno con langostino y cubierto de atún con salsa acevichada.",
     "description": "Rollos rellenos de langostino empanizado y aguacate, cubierto de atún fresco y salsa acevichada con togarashi.",
     "ingredients": "Langostino, aguacate, atún, togarashi, salsa acevichada.",
@@ -576,8 +576,8 @@
 
 {
     "id": "ZE001",
-    "category": "ZENSAI // ENTRADAS CALIENTES",
-    "name": "YOSHIKAWA // GYOZA DE CENTOLLO Y GAMBÓN",
+    "category": "ZENSAI || ENTRADAS CALIENTES",
+    "name": "YOSHIKAWA || GYOZA DE CENTOLLO Y GAMBÓN",
     "short": "Gyoza rellena de centollo, bisque y gambón.",
     "description": "Gyoza rellena de centollo con aire de queso y gambón. Recomendación: utilizar cuchara para consumir con la salsa.",
     "ingredients": "Centollo, gambón, queso (aire), bisque.",
@@ -590,8 +590,8 @@
 
     {
     "id": "ZE002",
-    "category": "ZENSAI // ENTRADAS CALIENTES",
-    "name": "HIROSE // GYOZA MAR Y TIERRA",
+    "category": "ZENSAI || ENTRADAS CALIENTES",
+    "name": "HIROSE || GYOZA MAR Y TIERRA",
     "short": "Gyoza de langostino y cerdo con setas.",
     "description": "Gyoza rellena de langostino y cerdo con salsa ponzu y setas. Recomendación: utilizar cuchara.",
     "ingredients": "Langostino, cerdo, setas, ponzu.",
@@ -604,8 +604,8 @@
 
     {
     "id": "ZE003",
-    "category": "ZENSAI // ENTRADAS CALIENTES",
-    "name": "TANIMOTO // SOFT SHELL CRAB BAO",
+    "category": "ZENSAI || ENTRADAS CALIENTES",
+    "name": "TANIMOTO || SOFT SHELL CRAB BAO",
     "short": "Bao de cangrejo furai con tártara de rocoto.",
     "description": "Bao relleno de cangrejo furai, salsa criolla con wakame y tártara de rocoto. Recomendación: tomar con la mano.",
     "ingredients": "Cangrejo, wakame, tártara de rocoto.",
@@ -618,8 +618,8 @@
 
     {
     "id": "ZE004",
-    "category": "ZENSAI // ENTRADAS CALIENTES",
-    "name": "TAKAYAMA // BAO DE CHICHARRON",
+    "category": "ZENSAI || ENTRADAS CALIENTES",
+    "name": "TAKAYAMA || BAO DE CHICHARRON",
     "short": "Bao de panceta ibérica con boniato crocante.",
     "description": "Bao de panceta ibérica glaseada al josper, boniato crocante, pepino, col morada, nabo encurtido y crema de ají.",
     "ingredients": "Panceta, boniato, pepino, col morada, crema de ají.",
@@ -632,8 +632,8 @@
 
     {
     "id": "ZE005",
-    "category": "ZENSAI // ENTRADAS CALIENTES",
-    "name": "OKUMURA // ANTICUCHO DE PEZ MANTEQUILLA",
+    "category": "ZENSAI || ENTRADAS CALIENTES",
+    "name": "OKUMURA || ANTICUCHO DE PEZ MANTEQUILLA",
     "short": "Pez mantequilla a la brasa con majado de papa y chimichurri.",
     "description": "Pez mantequilla a la brasa, salsa anticuchera, majado de papa, salsa blanca de maíz (choclo), chimichurri nikkei y aceite de cilantro.",
     "ingredients": "Pez mantequilla, papa, choclo, chimichurri.",
@@ -646,8 +646,8 @@
 
     {
     "id": "ZE006",
-    "category": "ZENSAI // ENTRADAS CALIENTES",
-    "name": "MIZUSHIMA // PULPO AL JOSPER",
+    "category": "ZENSAI || ENTRADAS CALIENTES",
+    "name": "MIZUSHIMA || PULPO AL JOSPER",
     "short": "Pulpo al josper con milhojas de patata y katsuobushi.",
     "description": "Pulpo al josper, milhojas de patata, tártara, espuma de patata y katsuobushi.",
     "ingredients": "Pulpo, patata, katsuobushi.",
@@ -660,8 +660,8 @@
 
     {
     "id": "ZE007",
-    "category": "ZENSAI // ENTRADAS CALIENTES",
-    "name": "YOSHIDA // KATSU SANDO DE CERDO IBÉRICO",
+    "category": "ZENSAI || ENTRADAS CALIENTES",
+    "name": "YOSHIDA || KATSU SANDO DE CERDO IBÉRICO",
     "short": "Katsu sando de presa ibérica con coleslaw.",
     "description": "Presa ibérica, brioche, coleslaw y salsa tonkatsu. Recomendación: puede tomarse con la mano.",
     "ingredients": "Presa ibérica, brioche, coleslaw, tonkatsu.",
@@ -674,8 +674,8 @@
 
     {
     "id": "ZE008",
-    "category": "ZENSAI // ENTRADAS CALIENTES",
-    "name": "MURAYAMA // GYU KATSU PONJA",
+    "category": "ZENSAI || ENTRADAS CALIENTES",
+    "name": "MURAYAMA || GYU KATSU PONJA",
     "short": "Wagyu A5 apanado con curry ramen y huevo onsen.",
     "description": "Wagyu A5 apanado, salsa curry ramen, huevo onsen y kizami wasabi. Recomendación: acompañar con salsas en cucharas pequeñas.",
     "ingredients": "Wagyu A5, curry ramen, huevo onsen, wasabi.",
@@ -688,8 +688,8 @@
 
     {
     "id": "PR001",
-    "category": "SAIGO // PRINCIPALES",
-    "name": "HAYASHI // SHIROMI A LA BRASA",
+    "category": "SAIGO || PRINCIPALES",
+    "name": "HAYASHI || SHIROMI A LA BRASA",
     "short": "Lubina salvaje con puré de alcachofa y batayaki de miso y yuzu.",
     "description": "Lubina salvaje, puré de alcachofa, alcachofa tempurizada, bimi a la brasa, batayaki de miso y yuzu.",
     "ingredients": "Lubina, alcachofa, bimi, miso, yuzu.",
@@ -702,8 +702,8 @@
 
     {
     "id": "PR003",
-    "category": "SAIGO // PRINCIPALES",
-    "name": "OGATA // ARROZ CONCOLON DE CIGALA",
+    "category": "SAIGO || PRINCIPALES",
+    "name": "OGATA || ARROZ CONCOLON DE CIGALA",
     "short": "Arroz con salsa de crustáceos, cigala y gambas con alioli.",
     "description": "Arroz cocido en salsa de crustáceos con cigala, gambas y salsa alioli. Recomendación: tener cuidado con la olla caliente.",
     "ingredients": "Cigala, gambas, alioli, arroz, salsa de crustáceos.",
@@ -716,8 +716,8 @@
 
     {
     "id": "PR004",
-    "category": "SAIGO // PRINCIPALES",
-    "name": "SHIMIZU // UDON DE LANGOSTA",
+    "category": "SAIGO || PRINCIPALES",
+    "name": "SHIMIZU || UDON DE LANGOSTA",
     "short": "Udon en salsa de crustáceos con langosta salteada en mantequilla.",
     "description": "Udon en salsa de crustáceos con langosta salteada en mantequilla.",
     "ingredients": "Udon, salsa crustáceos, langosta, mantequilla.",
@@ -730,8 +730,8 @@
 
     {
     "id": "PR005",
-    "category": "SAIGO // PRINCIPALES",
-    "name": "MAEDA // YAKIMESHI PONJA",
+    "category": "SAIGO || PRINCIPALES",
+    "name": "MAEDA || YAKIMESHI PONJA",
     "short": "Arroz al wok con costillas y nabo encurtido.",
     "description": "Arroz al wok con costillas a la barbacoa y nabo encurtido.",
     "ingredients": "Arroz, costillas, nabo encurtido.",
@@ -744,8 +744,8 @@
 
     {
     "id": "PR006",
-    "category": "SAIGO // PRINCIPALES",
-    "name": "OTSUKA // WAGYU A5 AL JOSPER",
+    "category": "SAIGO || PRINCIPALES",
+    "name": "OTSUKA || WAGYU A5 AL JOSPER",
     "short": "Lomo alto de wagyu A5 con rocoto y patata trufada.",
     "description": "Lomo alto de wagyu A5, rocoto parrillero y textura de patata trufada. Recomendación: acompañar con salsas y cucharas pequeñas.",
     "ingredients": "Wagyu A5, rocoto, patata trufada.",
@@ -758,8 +758,8 @@
 
     {
     "id": "PR007",
-    "category": "SAIGO // PRINCIPALES",
-    "name": "ISHIDA // LOMO SALTADO",
+    "category": "SAIGO || PRINCIPALES",
+    "name": "ISHIDA || LOMO SALTADO",
     "short": "Solomillo al wok con yucas fritas y arroz blanco.",
     "description": "Solomillo al wok, cebolla roja, tomate, setas, salsa de ostras y soja, acompañado de yucas fritas y arroz blanco.",
     "ingredients": "Solomillo, cebolla roja, tomate, setas, salsa ostras, yuca, arroz.",

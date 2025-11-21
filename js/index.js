@@ -23,15 +23,16 @@ Promise.all([
     .then(([menu, allergens]) => {
         menuData = menu;
 
-        // Convertimos los alérgenos a un mapa { slug: objeto }
+        // Guardar alérgenos en el mapa
         allergens.forEach(a => {
             allergensMap[a.slug.toLowerCase()] = a;
         });
 
+        // Renderizar menú y leyenda solo cuando todo está listo
         renderMenu(menuData);
+        renderAllergensLegend();
     })
     .catch(err => console.error("Error cargando JSON:", err));
-
 
 /* =============================
     ELEMENTOS DEL DOM
@@ -112,10 +113,25 @@ function renderMenu(list) {
             </div>
 
             <div class="mt-auto d-flex justify-content-between align-items-center">
-                <small class="text-muted">Alérgenos: ${item.allergens}</small>
+                <div class="allergen-icons small"></div>
                 <button class="btn btn-sm btn-primary btn-detail" data-id="${item.id}">Ver</button>
             </div>
         `;
+
+        const allergenDiv = body.querySelector(".allergen-icons");
+
+        item.allergens.split(",").forEach(a => {
+            const key = normalize(a).replace(/\s+/g, "-");
+            const info = allergensMap[key];
+            if (!info) return;
+
+            const icon = document.createElement("img");
+            icon.src = info.icon;
+            icon.alt = info.name;
+            icon.className = "allergen-icon me-1";
+
+            allergenDiv.appendChild(icon);
+        });
 
         card.appendChild(img);
         card.appendChild(body);
@@ -180,12 +196,9 @@ function openDishModal(id) {
         img.alt = info.name;
         img.className = "allergen-icon";
 
-        const label = document.createElement("span");
-        label.textContent = info.name;
-        label.className = "ms-1 small";
-
         wrapper.appendChild(img);
-        wrapper.appendChild(label);
+        // NO agregamos label → no se muestra el texto
+
         dishModalAllergens.appendChild(wrapper);
     });
 
@@ -260,3 +273,31 @@ printBtn.addEventListener('click', () => window.print());
 
 // Primera renderización
 renderMenu(menuData);
+
+function renderAllergensLegend() {
+    const legend = document.getElementById("allergensLegend");
+    legend.innerHTML = `
+        <h6 class="text-muted">Alérgenos presentes en esta carta</h6>
+        <div class="d-flex flex-wrap align-items-center gap-3 mt-2"></div>
+    `;
+
+    const wrap = legend.querySelector("div");
+
+    Object.values(allergensMap).forEach(al => {
+        const box = document.createElement("div");
+        box.className = "d-flex align-items-center";
+
+        const img = document.createElement("img");
+        img.src = al.icon;
+        img.alt = al.name;
+        img.className = "allergen-icon me-1";
+
+        const label = document.createElement("span");
+        label.textContent = al.name;
+        label.className = "small";
+
+        box.appendChild(img);
+        box.appendChild(label);
+        wrap.appendChild(box);
+    });
+}
